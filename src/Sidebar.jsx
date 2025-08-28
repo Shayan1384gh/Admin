@@ -28,7 +28,7 @@ export default function Sidebar() {
             {/* Sidebar for Desktop */}
             <aside className="hidden md:flex flex-col bg-gray-900 text-gray-200 w-64 min-h-screen p-6 space-y-6 shadow-lg">
                 <div className="flex flex-col items-center">
-                    <img className="w-16 h-16 rounded-full border border-gray-700" src="https://via.placeholder.com/64" alt="" />
+                    <img className="w-16 h-16 rounded-full border border-gray-700" src="" alt="" />
                     <p className="mt-2 text-gray-300 font-semibold">{username}</p>
                 </div>
 
@@ -74,7 +74,7 @@ export default function Sidebar() {
                         </button>
 
                         <div className="flex flex-col items-center mt-6">
-                            <img className="w-16 h-16 rounded-full border border-gray-700" src="https://via.placeholder.com/64" alt="" />
+                            <img className="w-16 h-16 rounded-full border border-gray-700" src="" alt="" />
                             <p className="mt-2 text-gray-300 font-semibold">{username}</p>
                         </div>
 
