@@ -65,7 +65,6 @@ export default function UserTable() {
                 <tr className="bg-gray-800 text-gray-300">
                     <th className="p-4 whitespace-nowrap">#</th>
                     <th className="p-4 whitespace-nowrap">Name</th>
-                    <th className="p-4 whitespace-nowrap">Username</th>
                     <th className="p-4 whitespace-nowrap">Email</th>
                     <th className="p-4 whitespace-nowrap">Actions</th>
                 </tr>
@@ -75,7 +74,6 @@ export default function UserTable() {
                     <tr key={user.id} className="border-t border-gray-700 hover:bg-gray-800 transition-colors">
                         <td className="p-4">{user.id}</td>
                         <td className="p-4">{user.name}</td>
-                        <td className="p-4">{user.username}</td>
                         <td className="p-4 break-all">{user.email}</td>
                         <td className="p-4 space-x-3">
                             <Link to={`/EditUser/${user.id}`}>
